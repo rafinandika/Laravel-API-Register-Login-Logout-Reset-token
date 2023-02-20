@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1775920/public_html/lara-api
+    /bin/cp -R * $DEPLOYPATH
+    /bin/cp * $DEPLOYPATH
